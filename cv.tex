@@ -1,0 +1,110 @@
+\documentclass[margin,line]{res}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+%\setlength{\pdfpagewidth}{\paperwidth}
+%\setlength{\pdfpageheight}{\paperheight} 
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+\usepackage{hyperref}
+
+\begin{document}
+
+\name{Simon Xiang \vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{2in}p{4in}}
+    University of Texas at Austin & {\it E-mail:}  \href{mailto:simonxiang@utexas.edu}{\texttt{simonxiang@utexas.edu}}\\       
+    Austin, TX 78712-1082 & {\it Website:} \url{www.simonxiang.xyz}
+\end{tabular}
+
+
+\section{\sc About}
+Freshman mathematics major at UT Austin with a focus in pure math, aspiring to go to graduate school for mathematics. U.\! S.\! Citizen. 
+
+\section{\sc Education}
+{\bf University of Texas at Austin}, Austin, Texas USA\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] B.S., Mathematics, expected May 2024 
+\end{list1}
+
+{\bf Texas Academy of Mathematics and Science}, Denton, Texas USA\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] TAMS, May 2020
+\end{list1}
+
+\section{\sc Academic Experience}
+{\bf University of Texas at Austin}, Austin, Texas USA
+
+\vspace{-.3cm}
+{\em Undergraduate Student} \hfill {\bf August 2020 - present}\\
+
+\vspace{-.3cm}
+\begin{list2}
+\item Took a graduate algebraic topology course as a freshman. Currently enrolled in graduate differential topology and Riemannian geometry.
+\item Undergraduate courses taken include differential geometry (current), complex analysis, and differential equations. More information on coursework can be found here: \url{www.simonxiang.xyz/math}
+\item Active participant in the math club.
+\item Currently studying de Rham cohomology and characteristic classes in DRP (Directed Reading Program), a program where you study a specific topic in depth, mentored by a graduate student.
+\end{list2}
+
+
+{\bf University of North Texas}, Denton, Texas USA
+
+\vspace{-.3cm}
+{\em TAMS Student} \hfill {\bf August 2018  - May 2020}\\
+Completed 62 credit hours of coursework in residence at UNT. Relevant courses taken include:
+\vspace{0.1cm}
+\begin{list2}
+\item Calculus 2, Multivariable Calculus, Linear Algebra (2018-2019)
+\item Real Analysis, Discrete Math (self-study, Summer 2019)
+\item Abstract Algebra, Real Analysis II (Fall 2019)
+\item Topology, Abstract Algebra II (Spring 2020)
+\end{list2}
+
+\vspace{-.3cm}
+Qualified for the NAQT quiz bowl national championship (HSNCT) in both Spring 2019 and 2020.
+
+{\em Math Tutor} \hfill {\bf August 2019  - May 2020}\\
+Volunteered several hours peer week to tutor fellow TAMS students in higher level math courses, including multivariable calculus, linear algebra, and real analysis.
+
+\section{\sc Computer Skills} 
+\begin{list2}
+\item Languages:  \LaTeX{}, HTML and CSS, Unix shell scripts. Familiar with C and C++.
+\item Operating Systems:  Arch Linux (home system), Ubuntu/Debian (server).
+\item System administration: Currently hosting a git server, mail server, and personal website on a VPS running Debian 10.
+\item \LaTeX{}: Live-\TeX{}es notes in Vim for math classes and hosts them on personal website.
+\item Linux: Set up home system on Arch Linux with dwm, running mostly terminal based programs, all free and open source. 
+\end{list2}
+
+\section{\sc Personal Hobbies} 
+\begin{list2}
+\item Ran the Galveston marathon in Februrary 2020, aiming to complete a triathlon in 2021.
+\item Semi-fluent in Japanese (self-study, estimated B2 proficiency) and  Chinese (spoken at home).
+\item Created a minimal personal website (\url{www.simonxiang.xyz}) with a blog on various topics.
+%\item Modified my window manager and terminal emulator, all other personal projects (including my website and math notes) can be viewed here: \url{git.simonxiang.xyz}
+\end{list2}
+
+
+\end{resume}
+\end{document}
